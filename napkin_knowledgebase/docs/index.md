@@ -1,7 +1,5 @@
 ## knowledgebase
 
-Step-by-step instruction on how to do the tasks described in the lectures and assignments of the skillset bootcamp.
-
 Course 1: Team Comms  
 Course 2: Project Mgmt  
 Course 3: Creative  
