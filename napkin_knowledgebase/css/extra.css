@@ -1,6 +1,11 @@
-h1 {
-  color: red;
-}
+
+/* @import url('https://fonts.googleapis.com/css?family=Raleway'); */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+/* h1, h2 {
+  color: #666666 !important;
+  font-family: Raleway !important;
+} */
 
 a {
   color: #666666 !important;
@@ -8,4 +13,8 @@ a {
 
 .bg-primary {
   background-color: #666666 !important;
+}
+
+body {
+  font-family: Raleway !important;
 }

@@ -1,10 +1,19 @@
-site_name: napkin kb
+site_name: napkin
+
+# theme: bootstrap
+
+theme:
+    name: mkdocs
+    nav_style: light
 
 extra_css:
-  - css/extra.css
+    - css/extra.css
+
+markdown_extensions:
+    - attr_list
 
 nav:
-  - comms:
+  - C1:
     - context: team_comms/1_context.md
     - onboarding: team_comms/2_onboarding.md
     - channels: team_comms/3_channels.md
@@ -25,7 +34,7 @@ nav:
     - lorem: team_comms/18_lorem.md
     - lorem: team_comms/19_lorem.md
     - lorem: team_comms/20_lorem.md
-  - pm:
+  - C2:
     - lorem: project_mgmt/1_lorem.md
     - lorem: project_mgmt/2_lorem.md
     - lorem: project_mgmt/3_lorem.md
@@ -46,7 +55,7 @@ nav:
     - lorem: project_mgmt/18_lorem.md
     - lorem: project_mgmt/19_lorem.md
     - lorem: project_mgmt/20_lorem.md
-  - creative:
+  - C3:
     - lorem: creative/1_creative.md
     - lorem: creative/2_creative.md
     - lorem: creative/3_creative.md
@@ -67,7 +76,7 @@ nav:
     - lorem: creative/18_creative.md
     - lorem: creative/19_creative.md
     - lorem: creative/20_creative.md
-  - graphics:
+  - C4:
     - lorem: graphics/1_graphics.md
     - lorem: graphics/2_graphics.md
     - lorem: graphics/3_graphics.md
@@ -88,7 +97,7 @@ nav:
     - lorem: graphics/18_graphics.md
     - lorem: graphics/19_graphics.md
     - lorem: graphics/20_graphics.md
-  - video:
+  - C5:
     - lorem: video/1_video.md
     - lorem: video/2_video.md
     - lorem: video/3_video.md
@@ -109,7 +118,7 @@ nav:
     - lorem: video/18_video.md
     - lorem: video/19_video.md
     - lorem: video/20_video.md
-  - content:
+  - C6:
     - lorem: content_mgmt/1_lorem.md
     - lorem: content_mgmt/2_lorem.md
     - lorem: content_mgmt/3_lorem.md
@@ -130,7 +139,7 @@ nav:
     - lorem: content_mgmt/18_lorem.md
     - lorem: content_mgmt/19_lorem.md
     - lorem: content_mgmt/20_lorem.md
-  - webdev:
+  - C7:
     - lorem: webdev/1_webdev.md
     - lorem: webdev/2_webdev.md
     - lorem: webdev/3_webdev.md
@@ -151,7 +160,7 @@ nav:
     - lorem: webdev/18_webdev.md
     - lorem: webdev/19_webdev.md
     - lorem: webdev/20_webdev.md
-  - data:
+  - C8:
     - lorem: data/1_data.md
     - lorem: data/2_data.md
     - lorem: data/3_data.md
