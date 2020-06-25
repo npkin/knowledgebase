@@ -3,7 +3,7 @@ This is a compilation of step-by-step instruction on the tasks covered on the bo
 
 The sidebar viewable to the left side of this text, which is also present on every web page of the knowledgebase, serves as a clickable table of contents for each entry. The abbreviated dropdown menus on the top nav provides a table of contents for each course: C1 stands for course 1, C2 for course 2, and so on. Use the nav to go to the actual page for each lesson.  
 
-This resource is updated often to reflected the latest knowledge on each skill in the skillset. But if come across a section that hasn't been updated, please send a not to [info@npkin.com](mailto:info@npkin.com).
+This resource is updated often to reflected the latest knowledge on each skill in the skillset. But if come across a section that hasn't been updated yet, please send a note to [info@npkin.com](mailto:info@npkin.com).
 
 <!-- Course 1: Team Comms  
 Course 2: Project Mgmt  
