@@ -83,19 +83,18 @@ Lesson 20: Going further
 ## Course 4: Graphics   
 Lesson 1: Context  
 Lesson 2: Onboarding  
-Lesson 2: Interface    
-Lesson 3: Layers  
-Lesson 4: Channels  
-Lesson 5: Paths  
-Lesson 6: Selections and Masks  
-Lesson 7: Curves   
-Lesson 8: Color   
-Lesson 9: Fonts    
-Lesson 10: Filters   
-Lesson 11: Clonning   
-Lesson 12: Animation   
-Lesson 13: Blend modes   
-Lesson 14: Smart objects     
+Lesson 3: Interface    
+Lesson 4: Layers  
+Lesson 5: Channels  
+Lesson 6: Paths  
+Lesson 7: Selections and Masks  
+Lesson 8: Curves   
+Lesson 9: Color   
+Lesson 10: Fonts    
+Lesson 11: Filters   
+Lesson 12: Clonning   
+Lesson 13: Animation   
+Lesson 14: Blend modes   
 Lesson 15: Transform   
 Lesson 16: Automation   
 Lesson 17: Exporting  
@@ -114,7 +113,8 @@ Lesson 7: Project
 Lesson 8: Media mgmt  
 Lesson 9: Trimming  
 Lesson 10: Editing   
-Lesson 11: Color correction  
+Lesson 11: Color correction basic
+Lesson 12: Color correction advanced
 Lesson 12: Visual effects  
 Lesson 13: Audio mixing  
 Lesson 14: Rendering  

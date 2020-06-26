@@ -6,8 +6,20 @@ a {
   color: #666666 !important;
 }
 
+body {
+  font-weight: 200;
+}
+
+.bg-light {
+  background-color: #D31E25 !important;
+}
+
 .bg-primary {
-  background-color: #666666 !important;
+  background-color: #D31E25 !important;
+}
+
+.navbar-brand {
+  background-image: url(img/napkin_logo_color.png) !important;
 }
 
 /* .bs-sidebar .nav > li > a.active, .bs-sidebar .nav > li > a.active:hover, .bs-sidebar .nav > li > a.active:focus {

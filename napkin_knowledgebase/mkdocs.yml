@@ -1,183 +1,206 @@
+# project information
 site_name: napkin
 
-# theme: bootstrap
 
+# theme
 theme:
     name: mkdocs
     nav_style: light
+    logo: 'img/napkin_logo_color.png'
 
 extra_css:
     - css/extra.css
 
+extra:
+  # logo: 'img/napkin_logo_color.png'
+  # palette:
+  #   primary: 'blue grey'
+  #   accent: 'deep orange'
+  font:
+    text: 'Raleway'
+    code: 'Roboto Mono'
+
+# copyright line
+copyright: 'Copyright &copy; 2020 Napkin'
+
+
+# extensions
 markdown_extensions:
     - attr_list
 
+
+# navigation
 nav:
   - C1:
     - context: team_comms/1_context.md
     - onboarding: team_comms/2_onboarding.md
-    - channels: team_comms/3_channels.md
-    - messaging: team_comms/4_messaging.md
-    - integrations: team_comms/5_integrations.md
-    - voip: team_comms/6_voip.md
-    - automation: team_comms/7_automation.md
-    - search: team_comms/8_search.md
-    - posts: team_comms/9_posts.md
-    - lorem: team_comms/10_lorem.md
-    - lorem: team_comms/11_lorem.md
-    - lorem: team_comms/12_lorem.md
-    - lorem: team_comms/13_lorem.md
-    - lorem: team_comms/14_lorem.md
-    - lorem: team_comms/15_lorem.md
-    - lorem: team_comms/16_lorem.md
-    - lorem: team_comms/17_lorem.md
-    - lorem: team_comms/18_lorem.md
-    - lorem: team_comms/19_lorem.md
-    - lorem: team_comms/20_lorem.md
+    - invites: team_comms/3_invites.md
+    - messages: team_comms/4_messages.md
+    - channels: team_comms/5_channels.md
+    - calls: team_comms/6_calls.md
+    - posts: team_comms/7_posts.md
+    - snippets: team_comms/8_snippets.md
+    - pinning: team_comms/9_pinning.md
+    - search: team_comms/10_search.md
+    - announcements: team_comms/11_announcements.md
+    - notifications: team_comms/12_notifications.md
+    - shortcuts: team_comms/13_shortcuts.md
+    - reactions: team_comms/14_reactions.md
+    - sharing: team_comms/15_sharing.md
+    - integration: team_comms/16_integration.md
+    - bots: team_comms/17_bots.md
+    - customization: team_comms/18_customization.md
+    - takeaways: team_comms/19_takeaways.md
+    - going further: team_comms/20_going_further.md
+
   - C2:
-    - lorem: project_mgmt/1_lorem.md
-    - lorem: project_mgmt/2_lorem.md
-    - lorem: project_mgmt/3_lorem.md
-    - lorem: project_mgmt/4_lorem.md
-    - lorem: project_mgmt/5_lorem.md
-    - lorem: project_mgmt/6_lorem.md
-    - lorem: project_mgmt/7_lorem.md
-    - lorem: project_mgmt/8_lorem.md
-    - lorem: project_mgmt/9_lorem.md
-    - lorem: project_mgmt/10_lorem.md
-    - lorem: project_mgmt/11_lorem.md
-    - lorem: project_mgmt/12_lorem.md
-    - lorem: project_mgmt/13_lorem.md
-    - lorem: project_mgmt/14_lorem.md
-    - lorem: project_mgmt/15_lorem.md
-    - lorem: project_mgmt/16_lorem.md
-    - lorem: project_mgmt/17_lorem.md
-    - lorem: project_mgmt/18_lorem.md
-    - lorem: project_mgmt/19_lorem.md
-    - lorem: project_mgmt/20_lorem.md
+    - context: project_mgmt/1_context.md
+    - onboarding: project_mgmt/2_onboarding.md
+    - invites: project_mgmt/3_invites.md
+    - members: project_mgmt/4_members.md
+    - teams: project_mgmt/5_teams.md
+    - boards: project_mgmt/6_boards.md
+    - lists: project_mgmt/7_lists.md
+    - cards: project_mgmt/8_cards.md
+    - move: project_mgmt/9_move.md
+    - checklists: project_mgmt/10_checklists.md
+    - attachments: project_mgmt/11_attachments.md
+    - labels: project_mgmt/12_labels.md
+    - dates: project_mgmt/13_dates.md
+    - shortcuts: project_mgmt/14_shortcuts.md
+    - customization: project_mgmt/15_customization.md
+    - integration: project_mgmt/16_integration.md
+    - archive: project_mgmt/17_archive.md
+    - sort and filtering: project_mgmt/18_sort_filtering.md
+    - takeaways: project_mgmt/19_takeaways.md
+    - going further: project_mgmt/20_going_further.md
+
   - C3:
-    - lorem: creative/1_creative.md
-    - lorem: creative/2_creative.md
-    - lorem: creative/3_creative.md
-    - lorem: creative/4_creative.md
-    - lorem: creative/5_creative.md
-    - lorem: creative/6_creative.md
-    - lorem: creative/7_creative.md
-    - lorem: creative/8_creative.md
-    - lorem: creative/9_creative.md
-    - lorem: creative/10_creative.md
-    - lorem: creative/11_creative.md
-    - lorem: creative/12_creative.md
-    - lorem: creative/13_creative.md
-    - lorem: creative/14_creative.md
-    - lorem: creative/15_creative.md
-    - lorem: creative/16_creative.md
-    - lorem: creative/17_creative.md
-    - lorem: creative/18_creative.md
-    - lorem: creative/19_creative.md
-    - lorem: creative/20_creative.md
+    - context: creative/1_context.md
+    - onboarding: creative/2_onboarding.md
+    - brief: creative/3_ brief.md
+    - budget: creative/4_budget.md
+    - brainstorming: creative/5_brainstorming.md
+    - storytelling: creative/6_storytelling.md
+    - writing: creative/7_writing.md
+    - art direction: creative/8_art_direction.md
+    - visual identity: creative/9_visual_identity.md
+    - logo: creative/10_logo.md
+    - typography: creative/11_typography.md
+    - color: creative/12_color.md
+    - design: creative/13_design.md
+    - illustration: creative/14_illustration.md
+    - animation: creative/15_animation.md
+    - photography: creative/16_photography.md
+    - video: creative/17_video.md
+    - campaigns: creative/18_campaigns.md
+    - takeaways: creative/19_takeaways.md
+    - going further: creative/20_going_further.md
+
   - C4:
-    - lorem: graphics/1_graphics.md
-    - lorem: graphics/2_graphics.md
-    - lorem: graphics/3_graphics.md
-    - lorem: graphics/4_graphics.md
-    - lorem: graphics/5_graphics.md
-    - lorem: graphics/6_graphics.md
-    - lorem: graphics/7_graphics.md
-    - lorem: graphics/8_graphics.md
-    - lorem: graphics/9_graphics.md
-    - lorem: graphics/10_graphics.md
-    - lorem: graphics/11_graphics.md
-    - lorem: graphics/12_graphics.md
-    - lorem: graphics/13_graphics.md
-    - lorem: graphics/14_graphics.md
-    - lorem: graphics/15_graphics.md
-    - lorem: graphics/16_graphics.md
-    - lorem: graphics/17_graphics.md
-    - lorem: graphics/18_graphics.md
-    - lorem: graphics/19_graphics.md
-    - lorem: graphics/20_graphics.md
+    - context: graphics/1_context.md
+    - onboarding: graphics/2_onboarding.md
+    - interface: graphics/3_interface.md
+    - layers: graphics/4_layers.md
+    - channels: graphics/5_channels.md
+    - paths: graphics/6_paths.md
+    - selections and masks: graphics/7_selections_masks.md
+    - curves: graphics/8_curves.md
+    - color: graphics/9_color.md
+    - fonts: graphics/10_fonts.md
+    - filters: graphics/11_filters.md
+    - clonning: graphics/12_clonning.md
+    - animation: graphics/13_animation.md
+    - blend modes: graphics/14_blend_modes.md
+    - transform: graphics/15_transform.md
+    - automation: graphics/16_automation.md
+    - exporting: graphics/17_exporting.md
+    - customization: graphics/18_customization.md
+    - takeaways: graphics/19_takeaways.md
+    - going further: graphics/20_going further.md
+
   - C5:
-    - lorem: video/1_video.md
-    - lorem: video/2_video.md
-    - lorem: video/3_video.md
-    - lorem: video/4_video.md
-    - lorem: video/5_video.md
-    - lorem: video/6_video.md
-    - lorem: video/7_video.md
-    - lorem: video/8_video.md
-    - lorem: video/9_video.md
-    - lorem: video/10_video.md
-    - lorem: video/11_video.md
-    - lorem: video/12_video.md
-    - lorem: video/13_video.md
-    - lorem: video/14_video.md
-    - lorem: video/15_video.md
-    - lorem: video/16_video.md
-    - lorem: video/17_video.md
-    - lorem: video/18_video.md
-    - lorem: video/19_video.md
-    - lorem: video/20_video.md
+    - context: video/1_context.md
+    - onboarding: video/2_onboarding.md
+    - gear: video/3_gear.md
+    - livestream: video/4_livestream.md
+    - interface: video/6_interface.md
+    - project: video/7_project.md
+    - media mgmt: video/8_media_mgmt.md
+    - trimming: video/9_trimming.md
+    - editing: video/10_editing.md
+    - color correction basic: video/11_color_correction_basic.md
+    - color correction advanced: video/11_color_correction_advanced.md
+    - visual effects: video/12_visual effects.md
+    - audio mixing: video/13_audio_mixing.md
+    - rendering: video/14_rendering.md
+    - shortcuts: video/17_shortcutso.md
+    - customizations: video/18_customizations.md
+    - takeaways: video/19_takeaways.md
+    - going further: video/20_ going_further.md
+
   - C6:
-    - lorem: content_mgmt/1_lorem.md
-    - lorem: content_mgmt/2_lorem.md
-    - lorem: content_mgmt/3_lorem.md
-    - lorem: content_mgmt/4_lorem.md
-    - lorem: content_mgmt/5_lorem.md
-    - lorem: content_mgmt/6_lorem.md
-    - lorem: content_mgmt/7_lorem.md
-    - lorem: content_mgmt/8_lorem.md
-    - lorem: content_mgmt/9_lorem.md
-    - lorem: content_mgmt/10_lorem.md
-    - lorem: content_mgmt/11_lorem.md
-    - lorem: content_mgmt/12_lorem.md
-    - lorem: content_mgmt/13_lorem.md
-    - lorem: content_mgmt/14_lorem.md
-    - lorem: content_mgmt/15_lorem.md
-    - lorem: content_mgmt/16_lorem.md
-    - lorem: content_mgmt/17_lorem.md
-    - lorem: content_mgmt/18_lorem.md
-    - lorem: content_mgmt/19_lorem.md
-    - lorem: content_mgmt/20_lorem.md
+    - context: content_mgmt/1_context.md
+    - onboarding: content_mgmt/2_onboarding.md
+    - invites: content_mgmt/3_invites.md
+    - roles: content_mgmt/4_roles.md
+    - admin panel: content_mgmt/5_admin_panel.md
+    - posts: content_mgmt/6_posts.md
+    - pages: content_mgmt/7_pages.md
+    - images: content_mgmt/8_images.md
+    - videos: content_mgmt/9_videos.md
+    - blocks: content_mgmt/10_blocks.md
+    - categories and tags: content_mgmt/11_categories_tags.md
+    - markdown: content_mgmt/12_markdown.md
+    - html: content_mgmt/13_html.md
+    - css: content_mgmt/14_css.md
+    - publishing: content_mgmt/15_publishing.md
+    - navigation: content_mgmt/16_navigation.md
+    - plug ins: content_mgmt/17_plug_ins.md
+    - staging: content_mgmt/18_staging.md
+    - takeaways: content_mgmt/19_takeaways.md
+    - going further: content_mgmt/20_going_further.md
+
   - C7:
-    - lorem: webdev/1_webdev.md
-    - lorem: webdev/2_webdev.md
-    - lorem: webdev/3_webdev.md
-    - lorem: webdev/4_webdev.md
-    - lorem: webdev/5_webdev.md
-    - lorem: webdev/6_webdev.md
-    - lorem: webdev/7_webdev.md
-    - lorem: webdev/8_webdev.md
-    - lorem: webdev/9_webdev.md
-    - lorem: webdev/10_webdev.md
-    - lorem: webdev/11_webdev.md
-    - lorem: webdev/12_webdev.md
-    - lorem: webdev/13_webdev.md
-    - lorem: webdev/14_webdev.md
-    - lorem: webdev/15_webdev.md
-    - lorem: webdev/16_webdev.md
-    - lorem: webdev/17_webdev.md
-    - lorem: webdev/18_webdev.md
-    - lorem: webdev/19_webdev.md
-    - lorem: webdev/20_webdev.md
+    - context: webdev/1_context.md
+    - onboarding: webdev/2_onboarding.md
+    - crome dev tools: webdev/3_chrome_dev_tools.md
+    - html: webdev/4_html.md
+    - css: webdev/5_css.md
+    - javascript: webdev/6_javascript.md
+    - python: webdev/7_python.md
+    - flask: webdev/8_flask.md
+    - bash: webdev/9_bash.md
+    - vim: webdev/10_vim.md
+    - atom: webdev/11_atom.md
+    - git: webdev/12_git.md
+    - github: webdev/13_github.md
+    - ssg: webdev/14_ssg.md
+    - github pages: webdev/15_githug_pages.md
+    - digital ocean: webdev/16_digital_ocean.md
+    - aws: webdev/17_aws.md
+    - dns: webdev/18_dns.md
+    - takeaways: webdev/19_takeaways.md
+    - going further: webdev/20_going_further.md
+
   - C8:
-    - lorem: data/1_data.md
-    - lorem: data/2_data.md
-    - lorem: data/3_data.md
-    - lorem: data/4_data.md
-    - lorem: data/5_data.md
-    - lorem: data/6_data.md
-    - lorem: data/7_data.md
-    - lorem: data/8_data.md
-    - lorem: data/9_data.md
-    - lorem: data/10_data.md
-    - lorem: data/11_data.md
-    - lorem: data/12_data.md
-    - lorem: data/13_data.md
-    - lorem: data/14_data.md
-    - lorem: data/15_data.md
-    - lorem: data/16_data.md
-    - lorem: data/17_data.md
-    - lorem: data/18_data.md
-    - lorem: data/19_data.md
-    - lorem: data/20_data.md
+    - context: data/1_context.md
+    - onboarding: data/2_onboarding.md
+    - google colab: data/3_google_colab.md
+    - python: data/4_python.md
+    - google analytics: data/5_google_analytics.md
+    - google sheets: data/6_google_sheets.md
+    - pandas series and dataframes: data/7_pandas_series_df.md
+    - pandas basic analysis: data/8_pandas_basic.md
+    - pandas basic plotting: data/9_pandas_plotting.md
+    - pandas indexing: data/10_pandas_indexing.md
+    - pandas advanced: data/11_pandas_advanced.md
+    - matplotlib basic plotting: data/12_matplotlib_basic.md
+    - matplotlib advanced: data/13_matplotlib_advanced.md
+    - seaborn basic plotting: data/14_seaborn_basic.md
+    - seaborn advanced: data/15_seaborn_advanced.md
+    - plotly: data/16_plotly.md
+    - sharing: data/17_sharing.md
+    - presenting: data/18_presenting.md
+    - takeaways: data/19_takeaways.md
+    - going further: data/20_going_further.md
