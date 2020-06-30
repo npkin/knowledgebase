@@ -1,9 +1,20 @@
 ## skillset knowledgebase
-This is a compilation of step-by-step instruction on the tasks covered on the bootcamp lectures. While each assignment has its own answer key, the foundation for all content is covered here.
+This knowledgebase includes step-by-step instructions on how to do the tasks described on the bootcamp lectures. While each bootcamp assignment has its own answer key, the textual foundation for all the course content is included here.
 
-The sidebar viewable to the left side of this text, which is also present on every web page of the knowledgebase, serves as a clickable table of contents for each entry. The abbreviated dropdown menus on the top nav provides a table of contents for each course: C1 stands for course 1, C2 for course 2, and so on. Use the nav to go to the actual page for each lesson.  
+C1: **Course 1** Team Comms  
+C2: **Course 2** Project Mgmt  
+C3: **Course 3** Creative  
+C4: **Course 4**: Graphics  
+C5: **Course 5**: Video  
+C6: **Course 6**: Content Mgmt  
+C7: **Course 7**: Web Dev  
+C8: **Course 8**: Data Analysis  
 
-This resource is updated often to reflected the latest knowledge on each skill in the skillset. But if come across a section that hasn't been updated yet, please send a note to [info@npkin.com](mailto:info@npkin.com).
+## navigation
+The sidebar viewable to the left side of this text, which is present on every web page of the knowledgebase, serves as a clickable table of contents for each page. Additionally, the abbreviated dropdown menus on the top nav provides a global navigation for all courses in the bootcamp: C1 stands for course 1, C2 for course 2, and so on. Use the nav to go to the actual page for each lesson. Once on a section page, you will be able to advance to the next page and return to the prior page by clicking on left and right arrows next to the search button.
+
+## updates
+This resource is updated often to reflected the latest knowledge on each skill in the skillset. But if you come across a section that hasn't been updated, please send a note about it to [info@npkin.com](mailto:info@npkin.com). We appreciate your input as it is our objective to provide a helpful documentation for the courses in the bootcamp.
 
 <!-- Course 1: Team Comms  
 Course 2: Project Mgmt  
@@ -14,7 +25,7 @@ Course 6: Content Mgmt
 Course 7: Web Dev  
 Course 8: Data Analysis   -->
 
-## Course 1: Team Comms  
+<!-- ## Course 1: Team Comms  
 Lesson 1: Context  
 Lesson 2: Onboarding  
 Lesson 3: Invites  
@@ -189,4 +200,4 @@ Lesson 16: Plotly
 Lesson 17: Sharing     
 Lesson 18: Presenting   
 Lesson 19: Takeaways  
-Lesson 20: Going further  
+Lesson 20: Going further   -->

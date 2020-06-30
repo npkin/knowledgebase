@@ -21,7 +21,7 @@ extra:
     code: 'Roboto Mono'
 
 # copyright line
-copyright: 'Copyright &copy; 2020 Napkin'
+copyright: 'Copyright &copy; 2020 Napkin, LLC'
 
 
 # extensions
@@ -124,20 +124,20 @@ nav:
     - onboarding: video/2_onboarding.md
     - gear: video/3_gear.md
     - livestream: video/4_livestream.md
-    - interface: video/6_interface.md
-    - project: video/7_project.md
+    - interface: video/5_interface.md
+    - project: video/6_project.md
+    - asset types: video/7_asset_types.md
     - media mgmt: video/8_media_mgmt.md
     - trimming: video/9_trimming.md
     - editing: video/10_editing.md
-    - color correction basic: video/11_color_correction_basic.md
-    - color correction advanced: video/11_color_correction_advanced.md
+    - color correction: video/11_color_correction.md
     - visual effects: video/12_visual effects.md
     - audio mixing: video/13_audio_mixing.md
     - rendering: video/14_rendering.md
-    - shortcuts: video/17_shortcutso.md
+    - shortcuts: video/17_shortcuts.md
     - customizations: video/18_customizations.md
     - takeaways: video/19_takeaways.md
-    - going further: video/20_ going_further.md
+    - going further: video/20_going_further.md
 
   - C6:
     - context: content_mgmt/1_context.md
