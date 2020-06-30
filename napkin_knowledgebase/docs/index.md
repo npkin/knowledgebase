@@ -1,14 +1,14 @@
 ## skillset knowledgebase
 This knowledgebase includes step-by-step instructions on how to do the tasks described on the bootcamp lectures. While each bootcamp assignment has its own answer key, the textual foundation for all the course content is included here.
 
-C1: **Course 1** Team Comms  
-C2: **Course 2** Project Mgmt  
-C3: **Course 3** Creative  
-C4: **Course 4**: Graphics  
-C5: **Course 5**: Video  
-C6: **Course 6**: Content Mgmt  
-C7: **Course 7**: Web Dev  
-C8: **Course 8**: Data Analysis  
+**Course 1** Team Comms  
+**Course 2** Project Mgmt  
+**Course 3** Creative  
+**Course 4**: Graphics  
+**Course 5**: Video  
+**Course 6**: Content Mgmt  
+**Course 7**: Web Dev  
+**Course 8**: Data Analysis  
 
 ## navigation
 The sidebar viewable to the left side of this text, which is present on every web page of the knowledgebase, serves as a clickable table of contents for each page. Additionally, the abbreviated dropdown menus on the top nav provides a global navigation for all courses in the bootcamp: C1 stands for course 1, C2 for course 2, and so on. Use the nav to go to the actual page for each lesson. Once on a section page, you will be able to advance to the next page and return to the prior page by clicking on left and right arrows next to the search button.
